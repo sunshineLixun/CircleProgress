@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A86F4BB2395C245CEE82EF4 /* libPods-CircleProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641A16BEC1FCDA71650260DB /* libPods-CircleProgress.a */; };
+		8CA372271D84F7080090DAEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA372261D84F7080090DAEC /* main.m */; };
+		8CA3722A1D84F7080090DAEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA372291D84F7080090DAEC /* AppDelegate.m */; };
+		8CA3722D1D84F7080090DAEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3722C1D84F7080090DAEC /* ViewController.m */; };
+		8CA372301D84F7080090DAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA3722E1D84F7080090DAEC /* Main.storyboard */; };
+		8CA372321D84F7080090DAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA372311D84F7080090DAEC /* Assets.xcassets */; };
+		8CA372351D84F7080090DAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CA372331D84F7080090DAEC /* LaunchScreen.storyboard */; };
+		8CA372401D84F7080090DAEC /* CircleProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3723F1D84F7080090DAEC /* CircleProgressTests.m */; };
+		8CA3724B1D84F7080090DAEC /* CircleProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3724A1D84F7080090DAEC /* CircleProgressUITests.m */; };
+		8CA3725B1D84F7AA0090DAEC /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3725A1D84F7AA0090DAEC /* CircleProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CA3723C1D84F7080090DAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CA3721A1D84F7080090DAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CA372211D84F7080090DAEC;
+			remoteInfo = CircleProgress;
+		};
+		8CA372471D84F7080090DAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CA3721A1D84F7080090DAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CA372211D84F7080090DAEC;
+			remoteInfo = CircleProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		641A16BEC1FCDA71650260DB /* libPods-CircleProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircleProgress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA372221D84F7080090DAEC /* CircleProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA372261D84F7080090DAEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CA372281D84F7080090DAEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CA372291D84F7080090DAEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CA3722B1D84F7080090DAEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CA3722C1D84F7080090DAEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CA3722F1D84F7080090DAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CA372311D84F7080090DAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CA372341D84F7080090DAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CA372361D84F7080090DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA3723B1D84F7080090DAEC /* CircleProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA3723F1D84F7080090DAEC /* CircleProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressTests.m; sourceTree = "<group>"; };
+		8CA372411D84F7080090DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA372461D84F7080090DAEC /* CircleProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA3724A1D84F7080090DAEC /* CircleProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressUITests.m; sourceTree = "<group>"; };
+		8CA3724C1D84F7080090DAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA372591D84F7AA0090DAEC /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		8CA3725A1D84F7AA0090DAEC /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		941517CD780CA3F56A1EA6FC /* Pods-CircleProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleProgress.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleProgress/Pods-CircleProgress.release.xcconfig"; sourceTree = "<group>"; };
+		B3F6D833951D3E86808DF990 /* Pods-CircleProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleProgress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleProgress/Pods-CircleProgress.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CA3721F1D84F7080090DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A86F4BB2395C245CEE82EF4 /* libPods-CircleProgress.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA372381D84F7080090DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA372431D84F7080090DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3F6A3E49F612D82C42382F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6D833951D3E86808DF990 /* Pods-CircleProgress.debug.xcconfig */,
+				941517CD780CA3F56A1EA6FC /* Pods-CircleProgress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B80DD3DD52B3B248AD442CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641A16BEC1FCDA71650260DB /* libPods-CircleProgress.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CA372191D84F7080090DAEC = {
+			isa = PBXGroup;
+			children = (
+				8CA372241D84F7080090DAEC /* CircleProgress */,
+				8CA3723E1D84F7080090DAEC /* CircleProgressTests */,
+				8CA372491D84F7080090DAEC /* CircleProgressUITests */,
+				8CA372231D84F7080090DAEC /* Products */,
+				3E3F6A3E49F612D82C42382F /* Pods */,
+				7B80DD3DD52B3B248AD442CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CA372231D84F7080090DAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CA372221D84F7080090DAEC /* CircleProgress.app */,
+				8CA3723B1D84F7080090DAEC /* CircleProgressTests.xctest */,
+				8CA372461D84F7080090DAEC /* CircleProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CA372241D84F7080090DAEC /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				8CA372581D84F7810090DAEC /* PrrgressView */,
+				8CA372281D84F7080090DAEC /* AppDelegate.h */,
+				8CA372291D84F7080090DAEC /* AppDelegate.m */,
+				8CA3722B1D84F7080090DAEC /* ViewController.h */,
+				8CA3722C1D84F7080090DAEC /* ViewController.m */,
+				8CA3722E1D84F7080090DAEC /* Main.storyboard */,
+				8CA372311D84F7080090DAEC /* Assets.xcassets */,
+				8CA372331D84F7080090DAEC /* LaunchScreen.storyboard */,
+				8CA372361D84F7080090DAEC /* Info.plist */,
+				8CA372251D84F7080090DAEC /* Supporting Files */,
+			);
+			path = CircleProgress;
+			sourceTree = "<group>";
+		};
+		8CA372251D84F7080090DAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CA372261D84F7080090DAEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CA3723E1D84F7080090DAEC /* CircleProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CA3723F1D84F7080090DAEC /* CircleProgressTests.m */,
+				8CA372411D84F7080090DAEC /* Info.plist */,
+			);
+			path = CircleProgressTests;
+			sourceTree = "<group>";
+		};
+		8CA372491D84F7080090DAEC /* CircleProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CA3724A1D84F7080090DAEC /* CircleProgressUITests.m */,
+				8CA3724C1D84F7080090DAEC /* Info.plist */,
+			);
+			path = CircleProgressUITests;
+			sourceTree = "<group>";
+		};
+		8CA372581D84F7810090DAEC /* PrrgressView */ = {
+			isa = PBXGroup;
+			children = (
+				8CA372591D84F7AA0090DAEC /* CircleProgressView.h */,
+				8CA3725A1D84F7AA0090DAEC /* CircleProgressView.m */,
+			);
+			name = PrrgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CA372211D84F7080090DAEC /* CircleProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA3724F1D84F7080090DAEC /* Build configuration list for PBXNativeTarget "CircleProgress" */;
+			buildPhases = (
+				5837625A592F9EC3F3AC1482 /* 📦 Check Pods Manifest.lock */,
+				8CA3721E1D84F7080090DAEC /* Sources */,
+				8CA3721F1D84F7080090DAEC /* Frameworks */,
+				8CA372201D84F7080090DAEC /* Resources */,
+				BDBFCEAB308DFF2CB8E016A2 /* 📦 Embed Pods Frameworks */,
+				FDC321482681C48866D382F0 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgress;
+			productName = CircleProgress;
+			productReference = 8CA372221D84F7080090DAEC /* CircleProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CA3723A1D84F7080090DAEC /* CircleProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA372521D84F7080090DAEC /* Build configuration list for PBXNativeTarget "CircleProgressTests" */;
+			buildPhases = (
+				8CA372371D84F7080090DAEC /* Sources */,
+				8CA372381D84F7080090DAEC /* Frameworks */,
+				8CA372391D84F7080090DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CA3723D1D84F7080090DAEC /* PBXTargetDependency */,
+			);
+			name = CircleProgressTests;
+			productName = CircleProgressTests;
+			productReference = 8CA3723B1D84F7080090DAEC /* CircleProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CA372451D84F7080090DAEC /* CircleProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA372551D84F7080090DAEC /* Build configuration list for PBXNativeTarget "CircleProgressUITests" */;
+			buildPhases = (
+				8CA372421D84F7080090DAEC /* Sources */,
+				8CA372431D84F7080090DAEC /* Frameworks */,
+				8CA372441D84F7080090DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CA372481D84F7080090DAEC /* PBXTargetDependency */,
+			);
+			name = CircleProgressUITests;
+			productName = CircleProgressUITests;
+			productReference = 8CA372461D84F7080090DAEC /* CircleProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CA3721A1D84F7080090DAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sunshine;
+				TargetAttributes = {
+					8CA372211D84F7080090DAEC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8CA3723A1D84F7080090DAEC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CA372211D84F7080090DAEC;
+					};
+					8CA372451D84F7080090DAEC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8CA372211D84F7080090DAEC;
+					};
+				};
+			};
+			buildConfigurationList = 8CA3721D1D84F7080090DAEC /* Build configuration list for PBXProject "CircleProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CA372191D84F7080090DAEC;
+			productRefGroup = 8CA372231D84F7080090DAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CA372211D84F7080090DAEC /* CircleProgress */,
+				8CA3723A1D84F7080090DAEC /* CircleProgressTests */,
+				8CA372451D84F7080090DAEC /* CircleProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CA372201D84F7080090DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA372351D84F7080090DAEC /* LaunchScreen.storyboard in Resources */,
+				8CA372321D84F7080090DAEC /* Assets.xcassets in Resources */,
+				8CA372301D84F7080090DAEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA372391D84F7080090DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA372441D84F7080090DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5837625A592F9EC3F3AC1482 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDBFCEAB308DFF2CB8E016A2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleProgress/Pods-CircleProgress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC321482681C48866D382F0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleProgress/Pods-CircleProgress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CA3721E1D84F7080090DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA3722D1D84F7080090DAEC /* ViewController.m in Sources */,
+				8CA3725B1D84F7AA0090DAEC /* CircleProgressView.m in Sources */,
+				8CA3722A1D84F7080090DAEC /* AppDelegate.m in Sources */,
+				8CA372271D84F7080090DAEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA372371D84F7080090DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA372401D84F7080090DAEC /* CircleProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA372421D84F7080090DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA3724B1D84F7080090DAEC /* CircleProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CA3723D1D84F7080090DAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CA372211D84F7080090DAEC /* CircleProgress */;
+			targetProxy = 8CA3723C1D84F7080090DAEC /* PBXContainerItemProxy */;
+		};
+		8CA372481D84F7080090DAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CA372211D84F7080090DAEC /* CircleProgress */;
+			targetProxy = 8CA372471D84F7080090DAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CA3722E1D84F7080090DAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA3722F1D84F7080090DAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CA372331D84F7080090DAEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CA372341D84F7080090DAEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CA3724D1D84F7080090DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CA3724E1D84F7080090DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CA372501D84F7080090DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F6D833951D3E86808DF990 /* Pods-CircleProgress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = CircleProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwubao.CircleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CA372511D84F7080090DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941517CD780CA3F56A1EA6FC /* Pods-CircleProgress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = CircleProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwubao.CircleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CA372531D84F7080090DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwubao.CircleProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleProgress.app/CircleProgress";
+			};
+			name = Debug;
+		};
+		8CA372541D84F7080090DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CircleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwubao.CircleProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleProgress.app/CircleProgress";
+			};
+			name = Release;
+		};
+		8CA372561D84F7080090DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwubao.CircleProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleProgress;
+			};
+			name = Debug;
+		};
+		8CA372571D84F7080090DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CircleProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuwubao.CircleProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CircleProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CA3721D1D84F7080090DAEC /* Build configuration list for PBXProject "CircleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA3724D1D84F7080090DAEC /* Debug */,
+				8CA3724E1D84F7080090DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA3724F1D84F7080090DAEC /* Build configuration list for PBXNativeTarget "CircleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA372501D84F7080090DAEC /* Debug */,
+				8CA372511D84F7080090DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA372521D84F7080090DAEC /* Build configuration list for PBXNativeTarget "CircleProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA372531D84F7080090DAEC /* Debug */,
+				8CA372541D84F7080090DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA372551D84F7080090DAEC /* Build configuration list for PBXNativeTarget "CircleProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA372561D84F7080090DAEC /* Debug */,
+				8CA372571D84F7080090DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CA3721A1D84F7080090DAEC /* Project object */;
+}
